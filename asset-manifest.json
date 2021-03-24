@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/Prashant_Portfolio/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/Prashant_Portfolio/static/js/main.b38d67e6.chunk.js",
-    "main.js.map": "/Prashant_Portfolio/static/js/main.b38d67e6.chunk.js.map",
-    "runtime-main.js": "/Prashant_Portfolio/static/js/runtime-main.50147c80.js",
-    "runtime-main.js.map": "/Prashant_Portfolio/static/js/runtime-main.50147c80.js.map",
-    "static/js/2.940a986d.chunk.js": "/Prashant_Portfolio/static/js/2.940a986d.chunk.js",
-    "static/js/2.940a986d.chunk.js.map": "/Prashant_Portfolio/static/js/2.940a986d.chunk.js.map",
-    "static/js/3.da5b259b.chunk.js": "/Prashant_Portfolio/static/js/3.da5b259b.chunk.js",
-    "static/js/3.da5b259b.chunk.js.map": "/Prashant_Portfolio/static/js/3.da5b259b.chunk.js.map",
+    "main.css": "/Prashant_Portfolio/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/Prashant_Portfolio/static/js/main.bfe38170.chunk.js",
+    "main.js.map": "/Prashant_Portfolio/static/js/main.bfe38170.chunk.js.map",
+    "runtime-main.js": "/Prashant_Portfolio/static/js/runtime-main.1a1be641.js",
+    "runtime-main.js.map": "/Prashant_Portfolio/static/js/runtime-main.1a1be641.js.map",
+    "static/js/2.d9fdb46f.chunk.js": "/Prashant_Portfolio/static/js/2.d9fdb46f.chunk.js",
+    "static/js/2.d9fdb46f.chunk.js.map": "/Prashant_Portfolio/static/js/2.d9fdb46f.chunk.js.map",
+    "static/js/3.a002f1a3.chunk.js": "/Prashant_Portfolio/static/js/3.a002f1a3.chunk.js",
+    "static/js/3.a002f1a3.chunk.js.map": "/Prashant_Portfolio/static/js/3.a002f1a3.chunk.js.map",
     "index.html": "/Prashant_Portfolio/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/Prashant_Portfolio/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.940a986d.chunk.js.LICENSE.txt": "/Prashant_Portfolio/static/js/2.940a986d.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/Prashant_Portfolio/static/media/logo.6ce24c58.svg"
+    "static/css/main.6dea0f05.chunk.css.map": "/Prashant_Portfolio/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.d9fdb46f.chunk.js.LICENSE.txt": "/Prashant_Portfolio/static/js/2.d9fdb46f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.50147c80.js",
-    "static/js/2.940a986d.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.b38d67e6.chunk.js"
+    "static/js/runtime-main.1a1be641.js",
+    "static/js/2.d9fdb46f.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.bfe38170.chunk.js"
   ]
 }
