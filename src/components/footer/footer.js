@@ -1,44 +1,32 @@
 import React, { Component } from 'react';
-export default class Header extends Component {
+export default class Footer extends Component {
   render() {
+    let resumeData = this.props.resumeData;
     return (
-      <React.Fragment>
-      {/*generated code*/
-        var NewComponent = React.createClass({
-  render: function() {
-    return (
-
-      {/* footer
-    ================================================== */}
-      <footer className="s-footer">
-        <div className="row">
-          <div className="column large-4 medium-6 w-1000-stack s-footer__social-block">
-            <ul className="s-footer__social">
-              <li><a href="#0"><i className="fab fa-facebook-f" aria-hidden="true" /></a></li>
-              <li><a href="#0"><i className="fab fa-instagram" aria-hidden="true" /></a></li>
-              <li><a href="#0"><i className="fab fa-linkedin-in" aria-hidden="true" /></a></li>
-            </ul>
-          </div>
-          <div className="column large-7 medium-6 w-1000-stack ss-copyright">
-            <span>© Copyright Ceevee 2021</span>
-            <span>Design by <a href="https://github.com/prashantdivate">Prashant</a></span>
-          </div>
+      <footer>
+      <div className="row">
+        <div className="twelve columns">
+          <ul className="social-links">
+            {
+              resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
+                return(
+                  <li>
+                    <a href={item.url}>
+                    <i className={item.className} />
+                    </a>
+                  </li>
+                )
+              })
+            }
+          </ul>
+          <ul className="copyright">
+            <li>© Copyright 2014 CeeVee</li>
+            <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+          </ul>
         </div>
-        <div className="ss-go-top">
-          <a className="smoothscroll" title="Back to Top" href="#top">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z" /></svg>
-          </a>
-        </div> {/* end ss-go-top */}
-      </footer>
-    );
-  }
-});
-
-      }
-      <header id="home">
-        ....
-      </header>
-      </React.Fragment>
+        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
+      </div>
+    </footer>
     );
   }
 }
