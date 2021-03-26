@@ -325,31 +325,31 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.yocto_project {
+.yocto {
   	width: 70%;
-  	-moz-animation: yocto_project 2s ease;
-  	-webkit-animation: yocto_project 2s ease;
+  	-moz-animation: yocto 2s ease;
+  	-webkit-animation: yocto 2s ease;
 }
-.Embedded_Linux {
+.linux {
   	width: 80%;
-  	-moz-animation: Embedded_Linux 2s ease;
-  	-webkit-animation: Embedded_Linux 2s ease;
+  	-moz-animation: linux 2s ease;
+  	-webkit-animation: linux 2s ease;
 }
 .Operating_system {
   	width: 82%;
-  	-moz-animation: Operating_system 2s ease;
-  	-webkit-animation: Operating_system 2s ease;
+  	-moz-animation: scripting 2s ease;
+  	-webkit-animation: scripting 2s ease;
 }
 
-@-moz-keyframes yocto_project {
+@-moz-keyframes yocto {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-moz-keyframes Embedded_Linux {
+@-moz-keyframes linux {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes Operating_system {
+@-moz-keyframes scripting {
   0%   { width: 0px;  }
   100% { width: 82%;  }
 }
