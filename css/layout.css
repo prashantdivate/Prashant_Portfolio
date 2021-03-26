@@ -354,15 +354,15 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 82%;  }
 }
 
-@-webkit-keyframes yocto_project {
+@-webkit-keyframes yocto {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-webkit-keyframes Embedded_Linux {
+@-webkit-keyframes linux {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes Operating_system {
+@-webkit-keyframes scripting {
   0%   { width: 0px;  }
   100% { width: 82%;  }
 }
