@@ -327,13 +327,13 @@ ul#nav li.current a { color: #F06000; }
 
 .yocto_project {
   	width: 70%;
-  	-moz-animation: yocto 2s ease;
-  	-webkit-animation: yocto 2s ease;
+  	-moz-animation: yocto_project 2s ease;
+  	-webkit-animation: yocto_project 2s ease;
 }
 .embedded_linux {
   	width: 80%;
-  	-moz-animation: linux 2s ease;
-  	-webkit-animation: linux 2s ease;
+  	-moz-animation: embedded_linux 2s ease;
+  	-webkit-animation: embedded_linux 2s ease;
 }
 .scripting {
   	width: 78%;
