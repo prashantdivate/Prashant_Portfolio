@@ -325,20 +325,20 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+.yocto_project {
+  	width: 70%;
+  	-moz-animation: yocto_project 2s ease;
+  	-webkit-animation: yocto_project 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+.Embedded_Linux {
+  	width: 80%;
+  	-moz-animation: Embedded_Linux 2s ease;
+  	-webkit-animation: Embedded_Linux 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+.Operating_system {
+  	width: 82%;
+  	-moz-animation: Operating_system 2s ease;
+  	-webkit-animation: Operating_system 2s ease;
 }
 .css {
   	width: 70%;
@@ -356,17 +356,17 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: reactjs 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes yocto_project {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 70%;  }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes Embedded_Linux {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 80%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes Operating_system {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 82%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
