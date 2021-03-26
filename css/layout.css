@@ -325,46 +325,46 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.yocto {
+.yocto_project {
   	width: 70%;
   	-moz-animation: yocto 2s ease;
   	-webkit-animation: yocto 2s ease;
 }
-.linux {
+.embedded_linux {
   	width: 80%;
   	-moz-animation: linux 2s ease;
   	-webkit-animation: linux 2s ease;
 }
-.Operating_system {
-  	width: 82%;
+.scripting {
+  	width: 78%;
   	-moz-animation: scripting 2s ease;
   	-webkit-animation: scripting 2s ease;
 }
 
-@-moz-keyframes yocto {
+@-moz-keyframes yocto_project {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-moz-keyframes linux {
+@-moz-keyframes embedded_linux {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
 @-moz-keyframes scripting {
   0%   { width: 0px;  }
-  100% { width: 82%;  }
+  100% { width: 78%;  }
 }
 
-@-webkit-keyframes yocto {
+@-webkit-keyframes yocto_project {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-webkit-keyframes linux {
+@-webkit-keyframes embedded_linux {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
 @-webkit-keyframes scripting {
   0%   { width: 0px;  }
-  100% { width: 82%;  }
+  100% { width: 78%;  }
 }
 
 
