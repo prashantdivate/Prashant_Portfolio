@@ -325,15 +325,15 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.yocto_project {
+.yocto {
   	width: 70%;
-  	-moz-animation: yocto_project 2s ease;
-  	-webkit-animation: yocto_project 2s ease;
+  	-moz-animation: yocto 2s ease;
+  	-webkit-animation: yocto 2s ease;
 }
-.embedded_linux {
+.linux {
   	width: 80%;
-  	-moz-animation: embedded_linux 2s ease;
-  	-webkit-animation: embedded_linux 2s ease;
+  	-moz-animation: linux 2s ease;
+  	-webkit-animation: linux 2s ease;
 }
 .scripting {
   	width: 78%;
@@ -341,11 +341,11 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: scripting 2s ease;
 }
 
-@-moz-keyframes yocto_project {
+@-moz-keyframes yocto {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-moz-keyframes embedded_linux {
+@-moz-keyframes linux {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
@@ -354,11 +354,11 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 78%;  }
 }
 
-@-webkit-keyframes yocto_project {
+@-webkit-keyframes yocto {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-webkit-keyframes embedded_linux {
+@-webkit-keyframes linux {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
